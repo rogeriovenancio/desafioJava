@@ -1,4 +1,3 @@
-package desafio;
 
 import java.util.Scanner;
 
@@ -7,16 +6,16 @@ public class desafioCalculadora {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner(System.in);
 		
-		System.out.print("Informe o número:  ");
+		System.out.print("Informe o nÃºmero:  ");
 		double num1 = entrada.nextDouble();
 		
-		System.out.print("Informe o número:  ");
+		System.out.print("Informe o nÃºmero:  ");
 		double num2 = entrada.nextDouble();
 		
-		System.out.print("Informe a operação:  ");
+		System.out.print("Informe a operaÃ§Ã£o:  ");
 		String op = entrada.next();
 		
-		//Lógica
+		//LÃ³gica
 		double resultado = "+".equals(op) ? num1 + num2 : 0;
 		resultado = "-".equals(op) ? num1 - num2 : resultado;
 		resultado = "*".equals(op) ? num1 * num2 : resultado;
