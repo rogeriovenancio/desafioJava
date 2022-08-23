@@ -1,4 +1,3 @@
-package desafio;
 
 public class desafioAritmeticos {
 	
