@@ -1,9 +1,8 @@
-package desafio;
 
 public class desafioLogico {
 	
 	public static void main(String[] args) {
-		// Trabalho na terça (V ou F)
+		// Trabalho na terÃ§a (V ou F)
 		// Trabalho na quinta (V ou F)
 		
 		boolean trabalho1 = false;
